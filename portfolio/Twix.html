@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Portfolio</title>
+    <style>
+    header .logo
+    {
+    color: rgb(170, 177, 177);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 10mm;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    }
+
+    nav {
+            margin: 0;
+            padding: 10px;
+            background-color: rgb(7, 127, 129);
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px;
+        }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.photo-card {
+    background-color: #343333;
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.photo-card img {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.photo-card h2 {
+    margin: 15px 0 10px;
+    font-size: 24px;
+    color: #bc6161;
+}
+
+.photo-card p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.portfolio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-content h1 span {
+    color: rgb(7, 127, 129);;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #bc6161;
+}
+
+.text-content a {
+    color: #080216;
+    text-decoration: none;
+}
+
+.text-content a:hover {
+    text-decoration: underline;
+}
+
+.connect-btn {
+    display: inline-block;
+            background-color: rgb(7, 127, 129);
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.connect-btn span {
+    margin-left: 8px;
+}
+
+.projects,.contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #07000b;
+            border-radius: 8px;
+            background-color: rgb(7, 127, 129);
+        }
+
+
+</style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Nitish Rana</a>
+        <nav>
+
+          <a href="Blog.html">Blog</a>
+          <a href="resume.html">About Me</a>
+          <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+
+    <div class="portfolio-container">
+
+        <div class="text-content">
+            <h1>Hi,<span></span> I'M Nitish!</h1>
+            <p>I'm a beginner web developer</p>
+            <a class="connect-btn" href="https://www.linkedin.com/feed/">Linkedin<span>🔗</span></a>
+        </div>
+
+    <div class="portfolio"></div>
+
+        <div class="photo-card">
+            <img src="DADDY.jpeg" alt="Profile Photo">
+            <h2>Nitish Rana</h2>
+            <p>Web Developer | Data Scientist | Photographer</p>
+        </div>
+    </div>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>This is a basic web development(Front-end) project. It was built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>This is a description of my second project(Python project). It was built using Python.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>This is a description of my third project(Data Science Project). It was built using Python, SQL, PowerBI and Machine Learning.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
